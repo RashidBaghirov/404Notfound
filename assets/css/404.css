@@ -1,0 +1,64 @@
+#pageerror .row {
+  margin: 50px;
+}
+#pageerror .row .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pageerror .row .image img {
+  width: 100%;
+}
+#pageerror .row .title-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pageerror .row .title-div .title h1 {
+  color: #BA0F2B;
+  font-size: 80px;
+  font-weight: 700;
+}
+#pageerror .row .title-div .title h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+#pageerror .row .title-div .title a {
+  display: inline-block;
+  margin-top: 25px;
+  transition: 0.5s;
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 10px;
+  text-align: center;
+}
+#pageerror .row .title-div .title a:hover {
+  transition: 0.5s;
+  background-color: #B30E2A;
+}
+@media screen and (max-width: 391px) {
+  #pageerror .row .title-div {
+    margin-top: 25px;
+  }
+  #pageerror .row .title-div .title h1 {
+    color: #B30E2A;
+    font-size: 55px;
+  }
+  #pageerror .row .title-div .title h3 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 821px) {
+  #pageerror .row .title-div {
+    margin-top: 25px;
+  }
+  #pageerror .row .title-div .title h1 {
+    color: #B30E2A;
+    font-size: 60px;
+  }
+  #pageerror .row .title-div .title h3 {
+    font-size: 22px;
+    font-weight: 900;
+  }
+}/*# sourceMappingURL=404.css.map */
